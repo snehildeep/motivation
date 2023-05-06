@@ -1,7 +1,7 @@
 
 
 body{
-  background: #000000;
+  background: #00353c;
 }
 
 h1{
@@ -27,7 +27,7 @@ h1{
 
 
   .nav h3{
-    color: rgb(255, 166, 166);
+    color: rgb(123, 225, 250);
     display: inline-flex;
     padding: 0px 50px;
     
@@ -43,7 +43,7 @@ h1{
   
   .nav h3:hover{
     color: white;
-    
+   font-size:large;
     background: linear-gradient( to bottom , rgb(0, 0, 0), rgb(0, 0, 0), rgb(0, 0, 0),rgb(0, 0, 0), rgb(0, 0, 0),yellow);
   }
   
@@ -53,41 +53,45 @@ h1{
  video{
   margin: 10px 20px ;
   display: inline-flex;
-  height: 500px;
-  width: 420px;
-  position: relative;
+  height: 520px;
+  width: 350px;
+  /* position: relative; */
   left: 45px;
  padding: 0px 5px;
-  border-radius: 10%;
-  
+  /* border-radius: 10%; */
+  float: left;
+  border: 2px solid rgb(255, 255, 255);
+ 
 
 }
 
-video:hover{
-  height: 520px;
-  width: 440px;
-
-  
+#v3{
+  float: right;
 }
+
+
 
 .vid{
   position: relative;
   top: 50px;
+  
+  border-color: aliceblue;
 
 }
 
 
-.lorem{
+#hh{
   background-color: #201212;
   color: aquamarine;
   position: relative;
   top: 40px;
+  display: inline;
+  font-size: 18px;
+  
+ 
   
 }
 
-.lorem h2{
-  margin-left: 18px;
-}
 
 /* Style the scroll bar */
 ::-webkit-scrollbar {
